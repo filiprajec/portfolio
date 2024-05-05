@@ -118,7 +118,7 @@
           "dayToDay": "Building/Planning",
           "color": "red",
           "description": "Startup to mainstream NFT collectibles in the arts and music industry.",
-          "highlight": "Designing a payment engine and smart contracts for custom NFT minting and ledgers. We had to guarentee payments and delivery in a buy it now as well as auction environment. This involved maintaining great error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
+          "highlight": "Designing a payment engine and smart contracts for custom NFT minting and ledgers. We had to guarantee payments and delivery in a buy it now as well as auction environment. This involved maintaining great error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
           "tags": [
             "AWS Amplify",
             "GraphQL",
@@ -168,7 +168,7 @@
           "dayToDay": "Research/Coding/Reporting",
           "color": "red",
           "description": "Before I started my web technologies journey I had my roots in scientific research & computing. I did my postgraduate research working on a groundbreaking piece of open-source software GAMBIT. GAMBIT is a high-performance bayesian inference tool to fit likelihoods of new physics models.",
-          "highlight": "Working as part of a global collaboration to extend a large scientific code project. Analysing and documenting methodology used and results obtained in a clear and concise manner.",
+          "highlight": "Working as part of a global collaboration to extend a large scientific code project. Analyzing and documenting methodology used and results obtained in a clear and concise manner.",
           "tags": ["C++", "cmake", "Python", "Data Science", "ML", "LateX"]
         },
         {
