@@ -1,0 +1,182 @@
+{
+  "home": {
+    "hero": {
+      "greeting": "Hey there!",
+      "greetingName": "I'm Filip",
+      "info": [
+        {
+          "label": "Position",
+          "value": "Fullstack Developer"
+        },
+        {
+          "label": "Location",
+          "value": "Melbourne/Naarm"
+        },
+        {
+          "label": "Currently",
+          "value": "Looking for opportunities"
+        }
+      ]
+    },
+    "outline": {
+      "first": {
+        "title": "6 YEARS",
+        "description": "Full Stack Development"
+      },
+      "second": {
+        "title": "4 YEARS",
+        "description": "Scientific Computing"
+      }
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "first": "I value clean code, following SOLID principles. Both front-end and back-end are my jam.",
+      "second": "Expressed as an art style my work follows maximal minimalist philosophies. I value clean accessible code while not loosing the passion and creativity that is intrinsic to good solutions and outside of the box thinking. From implementing pixel perfect designs to optimizing database queries I enjoy all aspects of development.",
+      "third": "In my off time, you'll find my <font=\"basteleur\">tinkering</font> with anything I can take apart, reading up on some new skills or switching off with a good <font=\"compagnon\">sci-fi novel</font> / rolling out the <font=\"picnic\">yoga mat</font>. I'm also a sustainability advocate, plant lover & have begun building my obligatory record collection.",
+      "tiles": [
+        {
+          "label": "Currently I'm Reading",
+          "emoji": "📚",
+          "title": "Right Hand Of Darkness",
+          "subtitle": "Ursula K Le Guin"
+        },
+        {
+          "label": "Currently I'm Learning",
+          "emoji": "🗝️",
+          "title": "OAuth2 Framework Standards",
+          "subtitle": "Proposal RFC 6749"
+        },
+        {
+          "label": "Currently I'm Battling",
+          "emoji": "🐛",
+          "title": "Aphids",
+          "subtitle": "That have taken over my plants"
+        },
+        {
+          "label": "Currently I'm Spinning",
+          "emoji": "🎧",
+          "title": "Say Something Nice",
+          "subtitle": "Donna Summer"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "description": "The journey that has shaped and made my career a joy so far.",
+      "data": [
+        {
+          "name": "Reusably",
+          "role": "Co-Founder/Lead Developer",
+          "teamSize": "Small",
+          "dayToDay": "Managing/Development",
+          "color": "orange",
+          "description": "I've always had a knack for sustainable solutions. This made me co-found and lead development of a reusable container startup & circular economy SaaS product.",
+          "highlight": "Building and growing a SaaS product from ground up. This has involved negotiating architecture choices based on product requirements, team/customer feedback & such that the other developers have a good experience and fundamentals to work from. A recent highlight was conducting an internal security audit and implementing a security-first approach to our development process.",
+
+          "tags": [
+            "Capacitor.js",
+            "DevOps",
+            "Stripe",
+            "React",
+            "tRPC",
+            "Prisma",
+            "mySQL",
+            "Cybersecurity",
+            "Jest",
+            "Typescript",
+            "Express.js",
+            "TurboRepo",
+            "CI/CD"
+          ]
+        },
+        {
+          "name": "GoodHuman",
+          "role": "Full Stack Developer",
+          "teamSize": "Medium",
+          "dayToDay": "Rituals/Development/Refactoring",
+          "color": "yellow",
+          "description": "An awesome product that empowers support services and support workers in the NDIS to deliver high quality care.",
+          "highlight": "Building fully-tested customer-first accessible features. Uplifting the legacy codebase by strongly typing and refactoring according MVC principles. Reproducing, fixing and triaging bugs in production and development environments. Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
+          "tags": [
+            "Typescript",
+            "Google Cloud",
+            "React",
+            "tRPC",
+            "Prisma",
+            "Postgres",
+            "Vitest",
+            "E2E Testing",
+            "Accessible Design",
+            "Figma",
+            "Jira"
+          ]
+        },
+        {
+          "name": "Fans Inc.",
+          "role": "Full Stack Developer",
+          "teamSize": "Small",
+          "dayToDay": "Building/Planning",
+          "color": "red",
+          "description": "Startup to mainstream NFT collectibles in the arts and music industry.",
+          "highlight": "Designing a payment engine and smart contracts for custom NFT minting and ledgers. We had to guarentee payments and delivery in a buy it now as well as auction environment. This involved maintaining great error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
+          "tags": [
+            "AWS Amplify",
+            "GraphQL",
+            "DynamoDB",
+            "Checkout.com",
+            "Solidity",
+            "Polygon Blockchain",
+            "React",
+            "Figma",
+            "ClickUp"
+          ]
+        },
+        {
+          "name": "Liquid Agency",
+          "role": "Full Stack Developer",
+          "teamSize": "Small",
+          "dayToDay": "Building/Planning",
+          "color": "pink",
+          "description": "Liquid is a brand experience agency that helps companies in the property development sector build stunning online presence.",
+          "highlight": "Transforming designs into pixel-perfect web experiences using Vue.js. Thoroughly testing to ensure pages are responsive and accessible across all browsers.",
+          "tags": ["CraftCSM", "Vue.js", "Docker", "Browser Testing", "Zeplin"]
+        },
+        {
+          "name": "Tennis.AI",
+          "role": "Frontend Developer",
+          "teamSize": "Small",
+          "dayToDay": "Building/Planning",
+          "color": "blue",
+          "description": "Progressive web app that allowed tennis players and trainers to upload their training videos to get AI generated stats about their technique and game-play.",
+          "highlight": "Working in a small agile team I added new ways to visualize stats in tandem with the game-play footage, while refreshing the UI/UX. Using a serverless architecture via AWS lambda functions and implementing a webhooks interface to handle PayPal payment subscription events.",
+          "tags": ["React", "PayPal", "AWS Lambda"]
+        },
+        {
+          "name": "Dingohead Creative/Other",
+          "role": "Freelance Full Stack Developer",
+          "teamSize": "Me!",
+          "dayToDay": "Building/Planning",
+          "color": "violet",
+          "description": "My entry point into full stack web development was via an array of projects as a freelancer.",
+          "highlight": "Freelancing and consulting with start-ups and non-for-profits to build small web-based projects, navigating the latest technologies while allowing for easy access and modifications by the client.",
+          "tags": ["WordPress", "React", "Frontity", "PHP", "Laravel"]
+        },
+        {
+          "name": "University Of Adelaide",
+          "role": "Postgraduate Researcher",
+          "teamSize": "Medium",
+          "dayToDay": "Research/Coding/Reporting",
+          "color": "red",
+          "description": "Before I started my web technologies journey I had my roots in scientific research & computing. I did my postgraduate research working on a groundbreaking piece of open-source software GAMBIT. GAMBIT is a high-performance bayesian inference tool to fit likelihoods of new physics models.",
+          "highlight": "Working as part of a global collaboration to extend a large scientific code project. Analysing and documenting methodology used and results obtained in a clear and concise manner.",
+          "tags": ["C++", "cmake", "Python", "Data Science", "ML", "LateX"]
+        },
+        {
+          "name": "And Beyond",
+          "color": "gray",
+          "highlight": "Outside of development I've taught first year university students data science and physics lab practicals. I enjoy sharing ideas and concepts in a simple and engaging way. I found a passion in social justice and volunteered as the Adelaide representative for Refugees Welcome & was part of the team that founded the global shapers hub in South Australia."
+        }
+      ]
+    }
+  }
+}

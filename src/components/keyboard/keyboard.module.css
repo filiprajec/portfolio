@@ -1,0 +1,62 @@
+.keyboardCase {
+  background: light-dark(
+    var(--mantine-color-gray-4),
+    var(--mantine-color-dark-6)
+  );
+}
+
+.yellowKey {
+  background: light-dark(
+    var(--mantine-color-yellow-3),
+    var(--mantine-color-yellow-9)
+  );
+}
+
+.whiteKey {
+  background: light-dark(
+    var(--mantine-color-white),
+    var(--mantine-color-dark-9)
+  );
+}
+
+.grayKey {
+  background: light-dark(
+    var(--mantine-color-gray-2),
+    var(--mantine-color-dark-7)
+  );
+}
+
+.blueKey {
+  background: light-dark(
+    var(--mantine-color-blue-3),
+    var(--mantine-color-blue-9)
+  );
+}
+
+.purpleKey {
+  background: light-dark(
+    var(--mantine-color-violet-3),
+    var(--mantine-color-violet-9)
+  );
+}
+
+.redKey {
+  background: light-dark(
+    var(--mantine-color-red-4),
+    var(--mantine-color-red-9)
+  );
+}
+
+.greenKey {
+  background: light-dark(
+    var(--mantine-color-teal-4),
+    var(--mantine-color-teal-9)
+  );
+}
+
+.orangeKey {
+  background: light-dark(
+    var(--mantine-color-orange-4),
+    var(--mantine-color-orange-9)
+  );
+}

@@ -1,0 +1,38 @@
+.divider-border-left {
+  border-left: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.divider-border-right {
+  border-right: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.divider-border-top {
+  border-top: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.divider-border-bottom {
+  border-bottom: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.divider-border {
+  border: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.border-light-dark {
+  border: 1px solid
+    light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+body {
+  @media (prefers-contrast: more) {
+    --mantine-color-dimmed: light-dark(
+      var(--mantine-color-gray-7),
+      var(--mantine-color-dark-1)
+    );
+  }
+}

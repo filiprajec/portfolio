@@ -1,0 +1,7 @@
+.noise-paper {
+  background: linear-gradient(
+    45deg,
+    light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-9)),
+    light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5))
+  );
+}
