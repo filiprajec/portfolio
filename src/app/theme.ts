@@ -7,15 +7,9 @@ export const theme = createTheme({
   headings: {
     fontFamily: karrik.style.fontFamily,
   },
+  primaryColor: "teal",
   scale: 1,
   fontSmoothing: false,
   fontFamilyMonospace: jetBrainsMono.style.fontFamily,
   fontFamily: inter.style.fontFamily,
-  components: {
-    Title: {
-      defaultProps: {
-        style: {},
-      },
-    },
-  },
 });

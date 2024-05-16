@@ -37,14 +37,14 @@
         {
           "label": "Currently I'm Reading",
           "emoji": "📚",
-          "title": "Right Hand Of Darkness",
-          "subtitle": "Ursula K Le Guin"
+          "title": "Sandworm",
+          "subtitle": "Andy Greenberg"
         },
         {
           "label": "Currently I'm Learning",
           "emoji": "🗝️",
-          "title": "OAuth2 Framework Standards",
-          "subtitle": "Proposal RFC 6749"
+          "title": "React Suspense",
+          "subtitle": "The suspense..."
         },
         {
           "label": "Currently I'm Battling",
@@ -70,12 +70,11 @@
           "teamSize": "Small",
           "dayToDay": "Managing/Development",
           "color": "orange",
-          "description": "I've always had a knack for sustainable solutions. This made me co-found and lead development of a reusable container startup & circular economy SaaS product.",
-          "highlight": "Building and growing a SaaS product from ground up. This has involved negotiating architecture choices based on product requirements, team/customer feedback & such that the other developers have a good experience and fundamentals to work from. A recent highlight was conducting an internal security audit and implementing a security-first approach to our development process.",
+          "description": "I've always had a knack for sustainable solutions. Leading me to co-found and lead development of a reusable container startup & circular economy SaaS product fighting plastic waste.",
+          "highlight": "Building and growing a SaaS product from ground up. This has involved negotiating architecture choices based on product requirements, team/customer feedback and good developer experience. A recent highlight was conducting an internal security audit and implementing a security-first approach to our development process.",
 
           "tags": [
-            "Capacitor.js",
-            "DevOps",
+            "Ionic Capacitor",
             "Stripe",
             "React",
             "tRPC",
@@ -86,7 +85,10 @@
             "Typescript",
             "Express.js",
             "TurboRepo",
-            "CI/CD"
+            "BitBucket Pipelines",
+            "Fastlane",
+            "Vercel",
+            "Three.js"
           ]
         },
         {
@@ -95,8 +97,8 @@
           "teamSize": "Medium",
           "dayToDay": "Rituals/Development/Refactoring",
           "color": "yellow",
-          "description": "An awesome product that empowers support services and support workers in the NDIS to deliver high quality care.",
-          "highlight": "Building fully-tested customer-first accessible features. Uplifting the legacy codebase by strongly typing and refactoring according MVC principles. Reproducing, fixing and triaging bugs in production and development environments. Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
+          "description": "Awesome product that empowers support services and support workers in the NDIS to deliver high quality care.",
+          "highlight": "An array of highlights here. Building fully-tested customer-first features and bringing in web accessibility standards. Refactoring legacy codebase according MVC principles. Reproducing, fixing and triaging bugs in production and development environments. Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
           "tags": [
             "Typescript",
             "Google Cloud",
@@ -106,7 +108,7 @@
             "Postgres",
             "Vitest",
             "E2E Testing",
-            "Accessible Design",
+            "WCAG",
             "Figma",
             "Jira"
           ]
@@ -115,14 +117,14 @@
           "name": "Fans Inc.",
           "role": "Full Stack Developer",
           "teamSize": "Small",
-          "dayToDay": "Building/Planning",
+          "dayToDay": "Planning/Development",
           "color": "red",
           "description": "Startup to mainstream NFT collectibles in the arts and music industry.",
-          "highlight": "Designing a payment engine and smart contracts for custom NFT minting and ledgers. We had to guarantee payments and delivery in a buy it now as well as auction environment. This involved maintaining great error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
+          "highlight": "Exploring new territories in the web3 world. I was designing a payment engine and smart contracts for custom NFT minting and ledgers. We had to guarantee payments and delivery in a buy it now as well as auction environment. This involved maintaining great error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
           "tags": [
             "AWS Amplify",
-            "GraphQL",
             "DynamoDB",
+            "GraphQL",
             "Checkout.com",
             "Solidity",
             "Polygon Blockchain",
@@ -135,27 +137,27 @@
           "name": "Liquid Agency",
           "role": "Full Stack Developer",
           "teamSize": "Small",
-          "dayToDay": "Building/Planning",
+          "dayToDay": "Development/Testing",
           "color": "pink",
           "description": "Liquid is a brand experience agency that helps companies in the property development sector build stunning online presence.",
-          "highlight": "Transforming designs into pixel-perfect web experiences using Vue.js. Thoroughly testing to ensure pages are responsive and accessible across all browsers.",
+          "highlight": "Attention to detail was key here. Transforming designs into pixel-perfect web experiences using Vue.js and thoroughly testing to ensure pages were responsive and accessible across all browsers.",
           "tags": ["CraftCSM", "Vue.js", "Docker", "Browser Testing", "Zeplin"]
         },
         {
           "name": "Tennis.AI",
           "role": "Frontend Developer",
           "teamSize": "Small",
-          "dayToDay": "Building/Planning",
+          "dayToDay": "Development",
           "color": "blue",
           "description": "Progressive web app that allowed tennis players and trainers to upload their training videos to get AI generated stats about their technique and game-play.",
-          "highlight": "Working in a small agile team I added new ways to visualize stats in tandem with the game-play footage, while refreshing the UI/UX. Using a serverless architecture via AWS lambda functions and implementing a webhooks interface to handle PayPal payment subscription events.",
+          "highlight": "My love for start ups began with Tennis AI. I worked in a small agile team adding new ways to visualize stats in tandem with the game-play footage, while refreshing the UI/UX. This was built on a serverless architecture via AWS lambda functions.",
           "tags": ["React", "PayPal", "AWS Lambda"]
         },
         {
           "name": "Dingohead Creative/Other",
           "role": "Freelance Full Stack Developer",
           "teamSize": "Me!",
-          "dayToDay": "Building/Planning",
+          "dayToDay": "Development/Consulting",
           "color": "violet",
           "description": "My entry point into full stack web development was via an array of projects as a freelancer.",
           "highlight": "Freelancing and consulting with start-ups and non-for-profits to build small web-based projects, navigating the latest technologies while allowing for easy access and modifications by the client.",
@@ -168,13 +170,76 @@
           "dayToDay": "Research/Coding/Reporting",
           "color": "red",
           "description": "Before I started my web technologies journey I had my roots in scientific research & computing. I did my postgraduate research working on a groundbreaking piece of open-source software GAMBIT. GAMBIT is a high-performance bayesian inference tool to fit likelihoods of new physics models.",
-          "highlight": "Working as part of a global collaboration to extend a large scientific code project. Analyzing and documenting methodology used and results obtained in a clear and concise manner.",
+          "highlight": "Working as part of a global collaboration to extend a large scientific code project. Everything was carefully analyzed and documented in a clear and concise manner.",
           "tags": ["C++", "cmake", "Python", "Data Science", "ML", "LateX"]
         },
         {
           "name": "And Beyond",
           "color": "gray",
-          "highlight": "Outside of development I've taught first year university students data science and physics lab practicals. I enjoy sharing ideas and concepts in a simple and engaging way. I found a passion in social justice and volunteered as the Adelaide representative for Refugees Welcome & was part of the team that founded the global shapers hub in South Australia."
+          "highlight": "Outside of development I've taught first year university students data science and physics lab practicals. I enjoy sharing ideas and concepts in a simple and engaging way. I found a passion in social justice and volunteered as the Adelaide representative for Refugees Welcome & was part of the team that founded the WEF global shapers hub in South Australia for young leaders."
+        }
+      ]
+    },
+    "showcase": {
+      "title": "Showcase",
+      "description": "Latest projects that I've worked on.",
+      "items": [
+        {
+          "category": "App",
+          "title": "Reusably",
+          "description": "A mobile app and SaSS solution to replace single use products.",
+          "links": [
+            {
+              "name": "Website",
+              "url": "https://reusably.com.au"
+            },
+            {
+              "name": "App Store",
+              "url": "https://apps.apple.com/us/app/reusably/id1613185463"
+            },
+            {
+              "name": "Google Play",
+              "url": "https://play.google.com/store/apps/details?id=com.reusably.mobileapp"
+            }
+          ],
+          "img": {
+            "src": "/images/reusably-phone.png",
+            "alt": "Reusably app on a phone screen."
+          }
+        },
+        {
+          "category": "Lab",
+          "title": "JSON Resume",
+          "description": "I've been using the JSON resume schema and wanted to create a template that was neat and scaled nicely. Check it out here.",
+          "links": [
+            {
+              "name": "Link",
+              "url": "https://json-resume-dynamic.vercel.app/"
+            },
+            {
+              "name": "Source",
+              "url": "https://github.com/filiprajec/json-resume"
+            }
+          ],
+          "img": {
+            "src": "/images/resume-paper.png",
+            "alt": "Resume page screenshot."
+          }
+        },
+        {
+          "category": "Profile",
+          "title": "This Website",
+          "description": "Check out the digital bones.",
+          "links": [
+            {
+              "name": "Source",
+              "url": "https://github.com/filiprajec/portfolio"
+            }
+          ],
+          "img": {
+            "src": "/images/profile-website.png",
+            "alt": "Resume page screenshot."
+          }
         }
       ]
     }

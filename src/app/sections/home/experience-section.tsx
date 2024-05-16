@@ -1,21 +1,14 @@
 "use client";
 
 import { Fragment } from "react";
-import {
-  Box,
-  Title,
-  Stack,
-  Text,
-  Divider,
-  Grid,
-  GridCol,
-  BoxProps,
-} from "@mantine/core";
+import { Box, Stack, Divider, Grid, GridCol, BoxProps } from "@mantine/core";
 
-import { SectionLayout } from "@/components/section-layout";
-import { Highlight } from "@/components/highlight";
-import { DividerShape } from "@/components/divider-shape";
 import { DividerGrid } from "@/components/divider-grid";
+import { DividerShape } from "@/components/divider-shape";
+import { Highlight } from "@/components/highlight";
+import { SectionLayout } from "@/components/section-layout";
+import { SectionPadding } from "@/components/section-padding";
+import { SectionTitle } from "@/components/section-title";
 import en from "@/lang/en.json";
 
 export const HighlightDivider = (props: Omit<BoxProps, "pos">) => {
@@ -47,21 +40,13 @@ export const HighlightsSection = () => {
         </Box>
       }
     >
-      <Box p={{ base: "lg", xs: "xl" }} my={{ base: "sm", md: "lg" }}>
+      <SectionPadding>
         <Grid>
           <GridCol span={{ base: 12, md: 4, lg: 3 }}>
             <Box pos="sticky" top={40}>
-              <Title order={2} fz={{ base: 42, sm: 56 }}>
+              <SectionTitle description={enExperience.description}>
                 {enExperience.title}
-              </Title>
-              <Text
-                maw={300}
-                mt={{ base: "sm", sm: "xl" }}
-                c="dimmed"
-                size="lg"
-              >
-                {enExperience.description}
-              </Text>
+              </SectionTitle>
             </Box>
           </GridCol>
           <GridCol
@@ -84,7 +69,7 @@ export const HighlightsSection = () => {
             </Stack>
           </GridCol>
         </Grid>
-      </Box>
+      </SectionPadding>
     </SectionLayout>
   );
 };

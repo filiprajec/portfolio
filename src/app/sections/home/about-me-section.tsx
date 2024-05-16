@@ -1,11 +1,13 @@
 "use client";
 
-import { Box, Title, Text, Stack, Grid, GridCol } from "@mantine/core";
+import { Box, Text, Stack, Grid, GridCol } from "@mantine/core";
 
 import { SectionLayout } from "@/components/section-layout";
 import { DividerShape } from "@/components/divider-shape";
 import { AboutMeTiles } from "@/components/about-me-tiles";
 import { DividerGrid } from "@/components/divider-grid";
+import { SectionTitle } from "@/components/section-title";
+import { SectionPadding } from "@/components/section-padding";
 import { withFont } from "@/lang/with-font";
 import en from "@/lang/en.json";
 
@@ -14,12 +16,10 @@ export const AboutMeSection = () => {
 
   return (
     <SectionLayout leftBorder leftShape="diamond">
-      <Box p={{ base: "lg", xs: "xl" }} my={{ base: "sm", md: "lg" }}>
-        <Title order={2} fz={{ base: 42, sm: 56 }}>
-          {enAboutMe.title}
-        </Title>
+      <SectionPadding>
+        <SectionTitle>{enAboutMe.title}</SectionTitle>
         <Grid>
-          <GridCol span={{ base: 12, sm: 7 }} mt={{ base: "sm", sm: "xl" }}>
+          <GridCol span={{ base: 12, sm: 7 }}>
             <Stack>
               <Text size="lg" c="dimmed">
                 {enAboutMe.first}
@@ -59,7 +59,7 @@ export const AboutMeSection = () => {
             </Box>
           </GridCol>
         </Grid>
-      </Box>
+      </SectionPadding>
     </SectionLayout>
   );
 };

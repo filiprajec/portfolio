@@ -3,11 +3,11 @@
 import { Fragment } from "react";
 import { Box, Title, Flex, Group, Stack } from "@mantine/core";
 
-import { SectionLayout } from "@/components/section-layout";
-import { ProfileImage } from "@/components/profile-image";
 import { Cones } from "@/components/cones";
 import { HeroBackgroundLayer } from "@/components/hero-background-layer";
 import { HeroInfo } from "@/components/hero-info";
+import { ProfileImage } from "@/components/profile-image";
+import { SectionLayout } from "@/components/section-layout";
 import en from "@/lang/en.json";
 
 export const HeroSection = () => {

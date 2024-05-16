@@ -3,8 +3,7 @@ import cls from "classnames";
 
 export type DividerShapeType = "circle" | "square" | "diamond" | "plus";
 
-interface DividerShapeProps
-  extends Omit<BoxProps, "w" | "h" | "left" | "top" | "pos"> {
+interface DividerShapeProps extends Omit<BoxProps, "w" | "h" | "left" | "top"> {
   shape: DividerShapeType;
   size: number;
 }
@@ -35,6 +34,7 @@ export const DividerShape = ({
           }}
         />
       );
+
     case "square":
       return (
         <Box
@@ -43,6 +43,7 @@ export const DividerShape = ({
           style={{ borderRadius: 2 }}
         />
       );
+
     case "diamond":
       return (
         <Box
@@ -54,6 +55,7 @@ export const DividerShape = ({
           }}
         />
       );
+
     case "plus":
       return (
         <>
@@ -71,6 +73,7 @@ export const DividerShape = ({
           />
         </>
       );
+
     default:
       return null;
   }

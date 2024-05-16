@@ -5,6 +5,7 @@ import {
   HeroSection,
   OutlineSection,
   Footer,
+  ShowcaseSection,
 } from "@/app/sections";
 import { AboutMeSection } from "./sections/home/about-me-section";
 
@@ -18,8 +19,7 @@ export default function Home() {
       <Divider />
       <HighlightsSection />
       <Divider />
-      <Divider mt="sm" />
-      <Divider mt="sm" />
+      <ShowcaseSection />
       <Footer />
     </main>
   );

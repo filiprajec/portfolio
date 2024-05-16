@@ -1,0 +1,235 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Filip Rajec",
+    "label": "Full Stack Developer",
+    "image": "",
+    "email": "filip@dingohead.com",
+    "location": {
+      "city": "Melbourne (Naarm)"
+    },
+    "summary": "Take a look at my profile online to learn more about me.",
+    "profiles": [
+      {
+        "network": "Profile",
+        "username": "www.dingohead.com"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "filip-rajec"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Reusably",
+      "position": "Dev Lead & Co-Founder",
+      "startDate": "2020-01-01",
+      "endDate": "2024-05-01",
+      "summary": "Negotiating architecture choices and leading the build of an extendable and maintainable SasS product.",
+      "highlights": [
+        "Designing and implementing a Typescript monorepo web/android/iOS SPA wrapped in Ionic Capacitor from ground up.",
+        "Implementing a Prisma/tRPC backend, with unit/integration testing, OAuth2 user authentication and RBAC permissions.",
+        "Optimizing database queries and implementing table locking for data integrity.",
+        "Implementing technologies to build WebSocket, SMTP mail and push notifications, as well as next-generation encrypted NFC writing/reading frameworks.",
+        "Deploying and managing servers, CI/CD system, logging and monitoring architecture.",
+        "Building a Stripe integration with subscriptions, webhooks and mobile payment methods including google/apple pay.",
+        "Navigating app stores, policies and automating submissions using fastlane.",
+        "Understanding cybersecurity concerns and conducting an internal pen test at both an organizational and codebase level.",
+        "Managing an developer, solving technical problems with the team and presenting to SasS customers."
+      ]
+    },
+    {
+      "name": "GoodHuman",
+      "position": "Fullstack Developer",
+      "startDate": "2022-11-01",
+      "endDate": "2023-07-01",
+      "summary": "",
+      "highlights": [
+        "Building fully-tested customer-first accessible features.",
+        "Focused on fulfilling WCAG for all new code.",
+        "Uplifting the legacy codebase by strongly typing and refactoring according MVC principles.",
+        "Reproducing, fixing and triaging bugs in production and development environments.",
+        "Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
+        "Problem solving with product managers/designers on feature development and release timelines."
+      ]
+    },
+    {
+      "name": "Fans Inc",
+      "position": "Fullstack Developer",
+      "startDate": "2021-12-01",
+      "endDate": "2022-06-01",
+      "summary": "",
+      "highlights": [
+        "Designing, building and optimizing GraphQL schemas using DynamoDB (NoSQL) and AWS AppSync.",
+        "Designing and building a payment platform leveraging Checkout.com's API with support for offers, auctions and buy-it-now purchases.",
+        "Implementing unit and integration tests on backend functions with Jest.",
+        "Maintaining good error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
+        "Building a Web3 smart contract using Solidity and a custom NFT minting backend using the Polygon blockchain.",
+        "Working with an agile workflow via ClickUp."
+      ]
+    },
+    {
+      "name": "Liquid",
+      "position": "Fullstack Developer",
+      "startDate": "2021-06-01",
+      "endDate": "2022-12-01",
+      "summary": "Working closely in a small team to build elegant, modern websites and SasS products.",
+      "highlights": [
+        "Transforming designs into pixel-perfect web experiences using Vue.js.",
+        "Thoroughly testing to ensure pages are responsive and accessible across all browsers.",
+        "Creating a deployable Docker container incorporating studios' style libraries, Webpack and CraftCMS to speed up the deployment of new projects and save server costs.",
+        "Significantly improved the page speed rating of the studio's SasS product and starter template by introducing code-splitting and tree-shaking."
+      ]
+    },
+    {
+      "name": "AthletesAI",
+      "position": "Frontend Developer",
+      "startDate": "2020-06-01",
+      "endDate": "2021-05-01",
+      "summary": "Adding features to and maintaining a modern web app built on React.js with an agile workflow via Jira.",
+      "highlights": [
+        "Designing and building maintainable React.js components.",
+        "Working with the REST API, MySQL, AWS lambda and PayPal integration, and integrating AWS Appsync and Amplify to add modern features such as WebSockets."
+      ]
+    },
+    {
+      "name": "Dingohead Creative",
+      "position": "Freelance Full Stack Developer",
+      "startDate": "2017-01-01",
+      "endDate": "2021-06-01",
+      "summary": "Freelancing and consulting with start-ups and non-for-profits to build small web-based projects."
+    },
+    {
+      "name": "University of Adelaide",
+      "position": "Tutor",
+      "startDate": "2017-01-01",
+      "endDate": "2020-12-01",
+      "summary": "Conducting undergraduate tutorials",
+      "highlights": [
+        "Led first-year physics and data science tutorials, explaining fundamental techniques using simple mathematical and programming approaches.",
+        "Learning how to communicate complex information to diverse audiences."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Refugees Welcome ",
+      "position": "Adelaide Representative / Tech",
+      "startDate": "2017-04-01",
+      "endDate": "2021-06-01",
+      "summary": "Building/maintaining an online platform that powers matches between refugees and those with spare rooms in the community."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Adelaide",
+      "area": "Computational & Theoretical Physics",
+      "studyType": "PhD",
+      "startDate": "2015-07-01",
+      "endDate": "2020-12-01",
+      "score": "",
+      "courses": [
+        "Working with in collaboration to extend a C++ model fitting program.",
+        "Carefully documenting my contribution to the codebase and analysing results.",
+        "Learning how to scrutinise, debug and carefully test code through stages of its lifecycle to release."
+      ]
+    },
+    {
+      "institution": "University of Adelaide",
+      "area": "High Performance Computational Physics",
+      "studyType": "Bsc + Honours",
+      "startDate": "2010-03-01",
+      "endDate": "2013-12-01",
+      "score": "",
+      "courses": [
+        "Fundamentals in scientific, mathematical, procedural thinking and computer science."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Technologies",
+      "keywords": [
+        "JavaScript",
+        "React",
+        "Vue",
+        "Redux/RTK Query",
+        "HTML5",
+        "CSS/SASS/LESS",
+        "Ionic Capacitor",
+        "Webpack",
+        "Next.js",
+        "Gatsby",
+        "Frontity",
+        "WCAG"
+      ]
+    },
+    {
+      "name": "Backend Technologies",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "MySQL/PostgreSQL",
+        "DynamoDB",
+        "REST",
+        "tRPC",
+        "OAuth2",
+        "GraphQL",
+        "Web3",
+        "WordPress",
+        "CraftCMS",
+        "Strapi",
+        "WebSockets"
+      ]
+    },
+    {
+      "name": "In Between",
+      "keywords": [
+        "Git",
+        "pnpm Workspaces",
+        "TurboRepo",
+        "Jest",
+        "Fastlane",
+        "Figma",
+        "Sketch"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "AWS",
+        "Vercel",
+        "DigitalOcean",
+        "GitHub CI/CD",
+        "BitBucket Pipelines",
+        "Sentry",
+        "Mezmo",
+        "Nginx"
+      ]
+    },
+    {
+      "name": "Third Parties",
+      "keywords": [
+        "Stripe",
+        "Paypal",
+        "Checkout.com",
+        "Auth0",
+        "Jira",
+        "ClickUp"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "Sci-fi novels",
+        "Yoga",
+        "Contemporary art",
+        "Tinkering with electronics"
+      ]
+    }
+  ]
+}
