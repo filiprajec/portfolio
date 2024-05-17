@@ -151,7 +151,6 @@
     {
       "name": "Frontend Technologies",
       "keywords": [
-        "JavaScript",
         "React",
         "Vue",
         "Redux/RTK Query",
@@ -159,6 +158,7 @@
         "CSS/SASS/LESS",
         "Ionic Capacitor",
         "Webpack",
+        "Babel",
         "Next.js",
         "Gatsby",
         "Frontity",
@@ -179,17 +179,19 @@
         "Web3",
         "WordPress",
         "CraftCMS",
-        "Strapi",
-        "WebSockets"
+        "Strapi"
       ]
     },
     {
       "name": "In Between",
       "keywords": [
+        "Typescript",
+        "WebSockets",
         "Git",
         "pnpm Workspaces",
         "TurboRepo",
         "Jest",
+        "Playwright",
         "Fastlane",
         "Figma",
         "Sketch"
