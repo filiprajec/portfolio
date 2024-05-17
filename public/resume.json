@@ -48,7 +48,7 @@
       "highlights": [
         "Building fully-tested customer-first accessible features.",
         "Focused on fulfilling WCAG for all new code.",
-        "Uplifting the legacy codebase by strongly typing and refactoring according MVC principles.",
+        "Uplifting the legacy codebase by strongly typing and refactoring according to MVC principles.",
         "Reproducing, fixing and triaging bugs in production and development environments.",
         "Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
         "Problem solving with product managers/designers on feature development and release timelines."
@@ -90,7 +90,7 @@
       "summary": "Adding features to and maintaining a modern web app built on React.js with an agile workflow via Jira.",
       "highlights": [
         "Designing and building maintainable React.js components.",
-        "Working with the REST API, MySQL, AWS lambda and PayPal integration, and integrating AWS Appsync and Amplify to add modern features such as WebSockets."
+        "Working with a REST API, MySQL, AWS lambda, PayPal to build features and utilising AWS Appsync and Amplify to add modern features such as WebSockets."
       ]
     },
     {
