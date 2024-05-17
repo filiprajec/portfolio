@@ -30,12 +30,12 @@
       "highlights": [
         "Designing and implementing a Typescript monorepo web/android/iOS SPA wrapped in Ionic Capacitor from ground up.",
         "Implementing a Prisma/tRPC backend, with unit/integration testing, OAuth2 user authentication and RBAC permissions.",
-        "Optimizing database queries and implementing table locking for data integrity.",
+        "Optimising database queries and implementing table locking for data integrity.",
         "Implementing technologies to build WebSocket, SMTP mail and push notifications, as well as next-generation encrypted NFC writing/reading frameworks.",
         "Deploying and managing servers, CI/CD system, logging and monitoring architecture.",
         "Building a Stripe integration with subscriptions, webhooks and mobile payment methods including google/apple pay.",
         "Navigating app stores, policies and automating submissions using fastlane.",
-        "Understanding cybersecurity concerns and conducting an internal pen test at both an organizational and codebase level.",
+        "Understanding cybersecurity concerns and conducting an internal pen test at both an organisational and codebase level.",
         "Managing an developer, solving technical problems with the team and presenting to SasS customers."
       ]
     },
@@ -61,7 +61,7 @@
       "endDate": "2022-06-01",
       "summary": "",
       "highlights": [
-        "Designing, building and optimizing GraphQL schemas using DynamoDB (NoSQL) and AWS AppSync.",
+        "Designing, building and optimising GraphQL schemas using DynamoDB (NoSQL) and AWS AppSync.",
         "Designing and building a payment platform leveraging Checkout.com's API with support for offers, auctions and buy-it-now purchases.",
         "Implementing unit and integration tests on backend functions with Jest.",
         "Maintaining good error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
