@@ -8,7 +8,7 @@
     "location": {
       "city": "Melbourne (Naarm)"
     },
-    "summary": "Take a look at my profile online to learn more about me.",
+    "summary": "",
     "profiles": [
       {
         "network": "Profile",
@@ -25,33 +25,35 @@
       "name": "Reusably",
       "position": "Dev Lead & Co-Founder",
       "startDate": "2020-01-01",
-      "endDate": "2024-05-01",
-      "summary": "Negotiating architecture choices and leading the build of an extendable and maintainable SasS product.",
+      "endDate": "2024-06-01",
+      "summary": "Building a Typescript monorepo, consisting of an API, frontend SPA and an ionic capacitor application.",
       "highlights": [
-        "Designing and implementing a Typescript monorepo web/android/iOS SPA wrapped in Ionic Capacitor from ground up.",
-        "Implementing a Prisma/tRPC backend, with unit/integration testing, OAuth2 user authentication and RBAC permissions.",
-        "Optimising database queries and implementing table locking for data integrity.",
-        "Implementing technologies to build WebSocket, SMTP mail and push notifications, as well as next-generation encrypted NFC writing/reading frameworks.",
-        "Deploying and managing servers, CI/CD system, logging and monitoring architecture.",
-        "Building a Stripe integration with subscriptions, webhooks and mobile payment methods including google/apple pay.",
-        "Navigating app stores, policies and automating submissions using fastlane.",
-        "Understanding cybersecurity concerns and conducting an internal pen test at both an organisational and codebase level.",
-        "Managing an developer, solving technical problems with the team and presenting to SasS customers."
+        "Researching and implementing the most suitable infrastructure choices such as Prisma/tRPC and mantine UI to cut our time to release and focus our efforts on product growth.",
+        "Sped up monorepo development build and typechecking by 3x via typescript project references, turbo-repo & debounced reloading. This carried over to a 50% reduction in our production build times.",
+        "Built secure user management via OAuth2 with JWT and database managed RBAC permissions.",
+        "Optimized common database queries via explain and the selection of suitable primary keys. Alongside table locking for data integrity.",
+        "Navigated app store policies and reduced friction in our release by automating submissions using fastlane.",
+        "Understanding organisational and codebase level cybersecurity concerns and compiling an internal pen test report that passed scrutiny from a large customer.",
+        "Bridged custom native features, including a custom iOS NFC plugin and custom Swift views to allow for deferred deep linking, significantly improving the user onboarding experience.",
+        "Integrated with Stripe, Google/Apple Pay, WebSockets, SMTP mail, Firebase push notifications, CI/CD and logging/monitoring services.",
+        "Added pizzazz using React Spring and React Three Fibre."
       ]
     },
     {
       "name": "GoodHuman",
       "position": "Fullstack Developer",
       "startDate": "2022-11-01",
-      "endDate": "2023-07-01",
+      "endDate": "2024-03-01",
       "summary": "",
       "highlights": [
-        "Building fully-tested customer-first accessible features.",
-        "Focused on fulfilling WCAG for all new code.",
-        "Uplifting the legacy codebase by strongly typing and refactoring according to MVC principles.",
-        "Reproducing, fixing and triaging bugs in production and development environments.",
+        "100% test coverage on all new code.",
+        "Introduced a focus on fulfilling WCAG for new code within our team, documented and shared best practices.",
+        "Handled customer tickets as a priority when on bug duty. Identified, triaged and fixed a bug of disappearing data that had been unsolved for 4 months by considering edge cases that happened in the mobile API - which was far outside the scope of the teams focus.",
+        "Addressed a flaw in data fetching that flowed up through each domain of the codebase, discussed the effects with each product owner and their team. Released with no regressions and followed up with a company wide case-study on the issue.",
+        "Along with the team QA engineer took lead on documenting playwright procedures and designing a set of tests software engineers could run to reduce blocks in the release pipeline.",
+        "Estimating and time boxing features and delivering within these constraints.",
         "Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
-        "Problem solving with product managers/designers on feature development and release timelines."
+        "Employee of the month was give to our entire team, praised for consistently working together to release stable features."
       ]
     },
     {
@@ -61,12 +63,11 @@
       "endDate": "2022-06-01",
       "summary": "",
       "highlights": [
-        "Designing, building and optimising GraphQL schemas using DynamoDB (NoSQL) and AWS AppSync.",
-        "Designing and building a payment platform leveraging Checkout.com's API with support for offers, auctions and buy-it-now purchases.",
-        "Implementing unit and integration tests on backend functions with Jest.",
-        "Maintaining good error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases.",
-        "Building a Web3 smart contract using Solidity and a custom NFT minting backend using the Polygon blockchain.",
-        "Working with an agile workflow via ClickUp."
+        "Designed and built a payment engine enabling offers, auctions and buy-it-now purchases.",
+        "Built and optimised GraphQL schemas using DynamoDB (NoSQL) and AWS AppSync.",
+        "Maintained good error exception handling practices, with guaranteed success or rollback across services by anticipating edge cases. Payments and NFT delivery in particular had to be reliable at each step.",
+        "Researched and built a custom web3 smart contract using Solidity and a custom NFT minting backend using the Polygon blockchain.",
+        "Agile workflow via ClickUp."
       ]
     },
     {
@@ -76,9 +77,9 @@
       "endDate": "2021-12-01",
       "summary": "Working closely in a small team to build elegant, modern websites and SasS products.",
       "highlights": [
-        "Transforming designs into pixel-perfect web experiences using Vue.js.",
-        "Thoroughly testing to ensure pages are responsive and accessible across all browsers.",
-        "Creating a deployable Docker container incorporating studios' style libraries, Webpack and CraftCMS to speed up the deployment of new projects and save server costs.",
+        "Transformed designs into 100% pixel-perfect web experiences in Vue.js.",
+        "Thoroughly tested to ensure pages are responsive and accessible across all browsers.",
+        "Flagged that the development could be improved by using DRY processes. Created a deployable Docker container incorporating studios' style libraries, Webpack and CraftCMS. This sped up the deployment of new projects and saved server costs as they could be spun up on demand.",
         "Significantly improved the page speed rating of the studio's SasS product and starter template by introducing code-splitting and tree-shaking."
       ]
     },
