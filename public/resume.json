@@ -28,14 +28,14 @@
       "endDate": "2024-06-01",
       "summary": "Managing and building a Typescript monorepo, consisting of an API, SPA and multiple Ionic Capacitor applications.",
       "highlights": [
-        "Researching and implementing the most suitable infrastructure choices such as Prisma/tRPC and Mantine UI to cut our time to release and focus our efforts on product growth.",
+        "Researched and periodically incremented the most suitable infrastructure choices such as Prisma/tRPC and Mantine UI to cut our time to release and focus our efforts on product growth.",
         "Built secure user management via OAuth2 with JWT and database managed RBAC permissions.",
-        "Sped up monorepo development build and typechecking via typescript project references, turbo-repo & debounced reloading. This carried over to a significant reduction in our production build times.",
+        "Implemented fast monorepo development build and typechecking via typescript project references, turbo-repo & debounced reloading. This carried over to a significant reduction in our production build times.",
         "Navigated App Store policies and reduced friction in our release by automating submissions using Fastlane.",
         "Understanding organisational and codebase level cybersecurity concerns and compiling an internal pen test report that passed scrutiny from a large customer.",
         "Created custom native features, including a custom iOS NFC plugin and native Swift views to allow for deferred deep linking, boosting user trust during the onboarding experience.",
         "Integrated with Stripe, Google/Apple Pay, WebSockets, SMTP mail, Firebase push notifications, CI/CD and logging/monitoring services.",
-        "Designing low and high fidelity UI designs and adding digital pizzazz using React Spring and React Three Fibre."
+        "Designed low and high fidelity UI designs and added digital pizzazz using React Spring and React Three Fibre."
       ]
     },
     {
@@ -48,7 +48,7 @@
         "100% test coverage on all new code.",
         "Introduced a focus on fulfilling WCAG for new code within our team, documented and shared best practices.",
         "Handled customer tickets as a priority when on bug duty. Identified, triaged and fixed a bug of disappearing data that had been unsolved for 4 months by considering edge cases that happened in the mobile API - which was far outside the scope of the teams focus.",
-        "Addressed a flaw in data fetching that flowed up through each domain of the codebase discussed the effects with each product owner and their team. Released with no regressions and followed up with a company wide case-study on the issue.",
+        "Addressed a flaw in data fetching that flowed up through each domain of the codebase discussed the effects with each product owner and their team. Released with no regressions and followed up with a company wide case-study presentation on the issue.",
         "Along with the team QA engineer took lead on documenting playwright procedures and designing a set of tests software engineers could run to reduce blocks in the release pipeline.",
         "Estimating and time boxing features and delivering within these constraints.",
         "Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
@@ -158,7 +158,6 @@
         "CSS/SASS/LESS",
         "Ionic Capacitor",
         "Webpack",
-        "Babel",
         "Next.js",
         "Gatsby",
         "Frontity",
