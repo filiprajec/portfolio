@@ -52,7 +52,7 @@
         "Along with the team QA engineer took lead on documenting playwright procedures and designing a set of tests software engineers could run to reduce blocks in the release pipeline.",
         "Estimating and time boxing features and delivering within these constraints.",
         "Contributing to and running team & company-wide ceremonies, including sprint planning, stand-ups and retrospectives.",
-        "Our small team was recognized and rewarded for consistently working together to plan and release stable features."
+        "Our small team was recognised and rewarded for consistently working together to plan and release stable features."
       ]
     },
     {
@@ -107,7 +107,7 @@
       "endDate": "2020-12-01",
       "summary": "Conducting undergraduate tutorials.",
       "highlights": [
-        "Led first-year physics and data science tutorials, explaining fundamental techniques using simple mathematical and programming approaches.",
+        "Led first-year physics and data science/machine learning tutorials, explaining fundamental techniques using simple mathematical and programming approaches.",
         "Learning how to communicate complex information to diverse audiences."
       ]
     }
@@ -130,7 +130,7 @@
       "endDate": "2020-12-01",
       "score": "",
       "courses": [
-        "Working with in collaboration to extend a C++ model fitting program.",
+        "Working with in collaboration to extend a C++ bayesian inference tool.",
         "Carefully documenting my contribution to the codebase and analysing results.",
         "Learning how to scrutinise, debug and carefully test code through stages of its lifecycle to release."
       ]
@@ -219,6 +219,16 @@
         "Auth0",
         "Jira",
         "ClickUp"
+      ]
+    },
+    {
+      "name": "Knowledge",
+      "keywords": [
+        "Theoretical Physics",
+        "Numerical Methods",
+        "Machine Learning",
+        "Data Science",
+        "Teaching"
       ]
     }
   ],
